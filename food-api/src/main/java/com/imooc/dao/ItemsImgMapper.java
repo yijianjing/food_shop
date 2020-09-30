@@ -1,15 +1,15 @@
 package com.imooc.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.imooc.entity.Stu;
+import com.imooc.entity.ItemsImg;
 
 /**
- * 自已定义
+ * 商品图片 
  * @author jianjun
  * @version 1.0
  * @date 2020-09-30
  */
 
-public interface StuMapper extends BaseMapper<Stu> {
+public interface ItemsImgMapper extends BaseMapper<ItemsImg> {
 
 }
