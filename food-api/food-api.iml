@@ -16,10 +16,10 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.imooc:foodie-dev-service:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.imooc:foodie-dev-mapper:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.imooc:foodie-dev-pojo:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.imooc:foodie-dev-common:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="food-service" />
+    <orderEntry type="module" module-name="food-mapper" />
+    <orderEntry type="module" module-name="food-pojo" />
+    <orderEntry type="module" module-name="food-common" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.1.5.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.1.5.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.1.5.RELEASE" level="project" />

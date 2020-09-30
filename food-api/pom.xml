@@ -23,7 +23,7 @@
         -->
         <dependency>
             <groupId>com.imooc</groupId>
-            <artifactId>foodie-dev-service</artifactId>
+            <artifactId>food-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

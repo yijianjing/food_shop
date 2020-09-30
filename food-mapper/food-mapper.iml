@@ -16,8 +16,8 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.imooc:foodie-dev-pojo:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.imooc:foodie-dev-common:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="food-pojo" />
+    <orderEntry type="module" module-name="food-common" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.1.7.RELEASE" level="project" />

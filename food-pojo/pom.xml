@@ -15,7 +15,7 @@
 
         <dependency>
             <groupId>com.imooc</groupId>
-            <artifactId>foodie-dev-common</artifactId>
+            <artifactId>food-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
