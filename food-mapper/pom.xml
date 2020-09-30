@@ -13,7 +13,7 @@
     <dependencies>
 
         <!--
-            mapper -> pojo -> common
+            dao -> pojo -> common
             mapper通过pojo是可以使用common中相应的方法的
         -->
         <dependency>

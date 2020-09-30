@@ -14,7 +14,7 @@
     <dependencies>
 
         <!--
-            service -> mapper -> pojo -> common
+            service -> dao -> pojo -> common
             service可以使用pojo与common中相应的方法的
         -->
         <dependency>

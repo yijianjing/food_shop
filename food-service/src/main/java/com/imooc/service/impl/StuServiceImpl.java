@@ -1,6 +1,7 @@
 package com.imooc.service.impl;
 
-import com.imooc.mapper.StuMapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.imooc.dao.StuMapper;
 import com.imooc.pojo.Stu;
 import com.imooc.service.StuService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +10,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
-public class StuServiceImpl implements StuService {
+public class StuServiceImpl extends ServiceImpl<StuMapper,Stu> implements StuService {
 
     @Autowired
     public StuMapper stuMapper;
@@ -17,7 +18,7 @@ public class StuServiceImpl implements StuService {
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public Stu getStuInfo(int id) {
-        return stuMapper.selectByPrimaryKey(id);
+        return getById(id);
     }
 
     @Transactional(propagation = Propagation.REQUIRED)
@@ -38,23 +39,25 @@ public class StuServiceImpl implements StuService {
         stu.setId(id);
         stu.setName("lucy");
         stu.setAge(20);
-        stuMapper.updateByPrimaryKey(stu);
+        stuMapper.update(stu, null);
     }
 
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void deleteStu(int id) {
-        stuMapper.deleteByPrimaryKey(id);
+        stuMapper.deleteById(id);
     }
 
 
 
+    @Override
     public void saveParent() {
         Stu stu = new Stu();
         stu.setName("parent");
         stu.setAge(19);
         stuMapper.insert(stu);
     }
+    @Override
     @Transactional(propagation = Propagation.REQUIRED)
     public void saveChildren() {
         saveChild1();
