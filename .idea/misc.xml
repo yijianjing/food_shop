@@ -7,5 +7,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/food-common/pom.xml" />
+        <option value="$PROJECT_DIR$/food-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/food-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/food-service/pom.xml" />
+      </set>
+    </option>
   </component>
 </project>

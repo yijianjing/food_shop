@@ -7,10 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="food-api" />
-        <module name="food-common" />
-        <module name="food-mapper" />
-        <module name="food-pojo" />
-        <module name="food-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
