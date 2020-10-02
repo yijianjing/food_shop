@@ -12,8 +12,7 @@ import com.baomidou.mybatisplus.annotation.*;
  */
 @Data
 public class Items implements Serializable {
-    /** 商品主键id */
-    @TableId(value = "id", type = IdType.AUTO)
+
     private String id;
     /** 商品名称 商品名称 */
     private String itemName;

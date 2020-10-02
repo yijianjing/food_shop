@@ -11,8 +11,7 @@ import com.baomidou.mybatisplus.annotation.*;
  */
 @Data
 public class Category implements Serializable {
-    /** 主键 */
-    @TableId(value = "id", type = IdType.AUTO)
+
     private Integer id;
     /** 分类名称 */
     private String name;

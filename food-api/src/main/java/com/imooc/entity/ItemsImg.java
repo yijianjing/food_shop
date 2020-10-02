@@ -12,8 +12,7 @@ import com.baomidou.mybatisplus.annotation.*;
  */
 @Data
 public class ItemsImg implements Serializable {
-    /** 图片主键 */
-    @TableId(value = "id", type = IdType.AUTO)
+
     private String id;
     /** 商品外键id 商品外键id */
     private String itemId;

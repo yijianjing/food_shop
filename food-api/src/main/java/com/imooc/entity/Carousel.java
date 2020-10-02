@@ -12,8 +12,7 @@ import com.baomidou.mybatisplus.annotation.*;
  */
 @Data
 public class Carousel implements Serializable {
-    /** 主键 */
-    @TableId(value = "id", type = IdType.AUTO)
+
     private String id;
     /** 图片 图片地址 */
     private String imageUrl;

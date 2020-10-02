@@ -13,7 +13,6 @@ import com.baomidou.mybatisplus.annotation.*;
 @Data
 public class UserAddress implements Serializable {
     /** 地址主键id */
-    @TableId(value = "id", type = IdType.AUTO)
     private String id;
     /** 关联用户id */
     private String userId;

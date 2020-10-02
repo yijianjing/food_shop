@@ -11,8 +11,7 @@ import com.baomidou.mybatisplus.annotation.*;
  */
 @Data
 public class OrderItems implements Serializable {
-    /** 主键id */
-    @TableId(value = "id", type = IdType.AUTO)
+
     private String id;
     /** 归属订单id */
     private String orderId;

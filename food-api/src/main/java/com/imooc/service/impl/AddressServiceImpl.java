@@ -33,7 +33,7 @@ public class AddressServiceImpl implements AddressService {
         UserAddress ua = new UserAddress();
         ua.setUserId(userId);
         return userAddressMapper.selectList(new LambdaQueryWrapper<UserAddress>()
-                .eq(UserAddress::getId, ua.getId()));
+                .eq(UserAddress::getUserId, ua.getUserId()));
     }
 
     @Transactional(propagation = Propagation.REQUIRED)

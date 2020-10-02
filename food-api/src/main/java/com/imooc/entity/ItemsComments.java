@@ -12,8 +12,7 @@ import com.baomidou.mybatisplus.annotation.*;
  */
 @Data
 public class ItemsComments implements Serializable {
-    /** id主键 */
-    @TableId(value = "id", type = IdType.AUTO)
+
     private String id;
     /** 用户id 用户名须脱敏 */
     private String userId;

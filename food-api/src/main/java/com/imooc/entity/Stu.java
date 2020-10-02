@@ -11,8 +11,7 @@ import com.baomidou.mybatisplus.annotation.*;
  */
 @Data
 public class Stu implements Serializable {
-    /**  */
-    @TableId(value = "id", type = IdType.AUTO)
+
     private Integer id;
     /**  */
     private String name;

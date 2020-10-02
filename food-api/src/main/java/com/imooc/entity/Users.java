@@ -12,8 +12,7 @@ import com.baomidou.mybatisplus.annotation.*;
  */
 @Data
 public class Users implements Serializable {
-    /** 主键id 用户id */
-    @TableId(value = "id", type = IdType.AUTO)
+
     private String id;
     /** 用户名 用户名 */
     private String username;
