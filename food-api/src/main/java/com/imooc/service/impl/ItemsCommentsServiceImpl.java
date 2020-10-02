@@ -1,10 +1,16 @@
 package com.imooc.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+
 import com.imooc.dao.ItemsCommentsMapper;
-import com.imooc.entity.ItemsComments;
+import com.imooc.entity.*;
+import com.imooc.entity.vo.CommentLevelCountsVO;
+import com.imooc.entity.vo.ShopcartVO;
 import com.imooc.service.ItemsCommentsService;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+
 /**
  * 商品评价表 
  * @author jianjun
@@ -13,5 +19,6 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class ItemsCommentsServiceImpl extends ServiceImpl<ItemsCommentsMapper, ItemsComments> implements ItemsCommentsService {
+
 
 }
