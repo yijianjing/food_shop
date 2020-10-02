@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.imooc.entity.Category;
 import com.imooc.entity.vo.CategoryVO;
 import com.imooc.entity.vo.NewItemsVO;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -17,7 +18,7 @@ import java.util.Map;
  */
 
 public interface CategoryMapper extends BaseMapper<Category> {
-    List<CategoryVO> getSubCatList(Integer rootCatId);
+    List<CategoryVO> getSubCatList(@Param("rootCatId") Integer rootCatId);
 
     List<NewItemsVO> getSixNewItemsLazy(@Param("paramsMap") Map<String, Object> map);
 

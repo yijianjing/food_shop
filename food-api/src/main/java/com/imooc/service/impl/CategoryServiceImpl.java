@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 import com.imooc.dao.CategoryMapper;
+import com.imooc.dao.StuMapper;
 import com.imooc.entity.Category;
 import com.imooc.entity.vo.CategoryVO;
 import com.imooc.entity.vo.NewItemsVO;
@@ -40,6 +41,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> i
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public List<CategoryVO> getSubCatList(Integer rootCatId) {
+
         return getBaseMapper().getSubCatList(rootCatId);
     }
 
