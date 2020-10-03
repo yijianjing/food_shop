@@ -10,6 +10,7 @@
 
     <modules>
         <module>food-api</module>
+        <module>food-payment</module>
     </modules>
 
     <!--

@@ -5,6 +5,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/food-api" />
+    <file type="web" url="file://$PROJECT_DIR$/food-payment" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -22,5 +23,5 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" assert-keyword="false" jdk-15="false" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" assert-keyword="false" jdk-15="false" />
 </project>
