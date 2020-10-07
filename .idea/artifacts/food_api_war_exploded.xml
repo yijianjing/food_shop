@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="food-api:war exploded">
-    <output-path>$PROJECT_DIR$/food-api/target/foodie-api-2.3.4.RELEASE</output-path>
+    <output-path>$PROJECT_DIR$/food-api/target/food-api</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -51,10 +51,6 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.2" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.2" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.2" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.3.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.38" />
-          <element id="library" level="project" name="Maven: org.glassfish:jakarta.el:3.0.3" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.38" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.9.RELEASE" />
@@ -83,10 +79,14 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.6" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.0" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.38" />
+          <element id="library" level="project" name="Maven: org.glassfish:jakarta.el:3.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.38" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/food-api/target/foodie-api-2.3.4.RELEASE/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/food-api/target/food-api/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="food-api/web/Web" />
     </root>

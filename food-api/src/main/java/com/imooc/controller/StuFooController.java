@@ -19,6 +19,8 @@ public class StuFooController {
         return stuService.getStuInfo(id);
     }
 
+
+
     @PostMapping("/saveStu")
     public Object saveStu() {
         stuService.saveStu();
