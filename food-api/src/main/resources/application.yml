@@ -15,7 +15,7 @@ spring:
     username: walker
     password: walker
     #虚拟host 可以不设置,使用server默认host
-    virtual-host: test_v
+    virtual-host: boot_rabbitmq
 
 mybatis:
   type-aliases-package: com.imooc.entity
